@@ -16,7 +16,7 @@ This project implements a **masonry grid layout** combined with a **filtering sy
 
 ---
 
-## 1. Overview
+## 1. #Overview
 
 The **Masonry Filter Layout** is a modern, responsive grid layout that allows users to filter content by categories. It uses **CSS Grid** for the layout and **JavaScript** for the filtering functionality. The design adapts well to various screen sizes, ensuring a seamless user experience on desktops, tablets, and mobile devices.
 
