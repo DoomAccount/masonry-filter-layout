@@ -1,3 +1,10 @@
+/*
+    Copyright (c) 2024 Mostafa Sabry
+    https://github.com/DoomAccount/masonry-filter-layout
+    All rights reserved.
+    This code is released under the [MIT] license.
+    You can freely use and modify it for personal or commercial purposes, as long as you provide credit to the original author.
+ */
 /*-----------------------------------
 all elements
 -----------------------------------*/
@@ -194,9 +201,6 @@ body {
   }
 }
 
-.have-filter-masonry {
-  overflow: hidden;
-}
 .have-filter-masonry .filter-masonry {
   position: relative;
   width: 100%;
