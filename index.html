@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Masonry Filter Layout</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="format-detection" content="telephone=no">
+    <!-- 
+        Copyright (c) 2024 Mostafa Sabry
+        https://github.com/DoomAccount/masonry-filter-layout
+        All rights reserved.
+        This code is released under the [MIT] license.
+        You can freely use and modify it for personal or commercial purposes, as long as you provide credit to the original author.
+    -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+
+<body>
+    <!-- start portfolio -->
+    <div class="have-filter-masonry">
+
+        <div>
+            <!-- Filter buttons container, with an accessible group role and aria-label for better accessibility -->
+            <div class="filter-buttons" role="group" aria-label="Filter options">
+                <!-- All button with aria-pressed set to true, indicating it's the currently active filter -->
+                <button class="active" data-filter="*" aria-pressed="true">
+                    <span>All</span>
+                </button>
+                <!-- Video filter button with aria-pressed set to false as it's not active initially -->
+                <button data-filter="video" aria-pressed="false">
+                    <span>Video</span>
+                </button>
+                <!-- Branding filter button with aria-pressed set to false -->
+                <button data-filter="branding" aria-pressed="false">
+                    <span>Branding</span>
+                </button>
+                <!-- Web Design filter button with aria-pressed set to false -->
+                <button data-filter="web-design" aria-pressed="false">
+                    <span>Web Design</span>
+                </button>
+                <!-- Motion Graphics filter button with aria-pressed set to false -->
+                <button data-filter="motion-graphics" aria-pressed="false">
+                    <span>Motion Graphics</span>
+                </button>
+            </div>
+        </div>
+
+        <div>
+            <div class="filter-masonry" data-filter-masonry='{"default":1,"mobile":1,"tablet":2,"desktop":3,"xlarge":4}'>
+                <!-- item 01 -->
+                <div class="grid-item video">
+                    <img src="images/1.jpg" alt="item">
+                </div>
+                <!-- item 02 -->
+                <div class="grid-item branding">
+                    <img src="images/2.jpg" alt="item">
+                </div>
+                <!-- item 03 -->
+                <div class="grid-item web-design">
+                    <img src="images/3.jpg" alt="item">
+                </div>
+                <!-- item 04 -->
+                <div class="grid-item motion-graphics">
+                    <img src="images/4.jpg" alt="item">
+                </div>
+                <!-- item 05 -->
+                <div class="grid-item video">
+                    <img src="images/5.jpg" alt="item">
+                </div>
+                <!-- item 06 -->
+                <div class="grid-item branding">
+                    <img src="images/6.jpg" alt="item">
+                </div>
+                <!-- item 07 -->
+                <div class="grid-item web-design">
+                    <img src="images/7.jpg" alt="item">
+                </div>
+                <!-- item 08 -->
+                <div class="grid-item motion-graphics">
+                    <img src="images/8.jpg" alt="item">
+                </div>
+                <!-- item 09 -->
+                <div class="grid-item video">
+                    <img src="images/9.jpg" alt="item">
+                </div>
+                <!-- item 10 -->
+                <div class="grid-item branding">
+                    <img src="images/10.jpg" alt="item">
+                </div>
+                <!-- item 11 -->
+                <div class="grid-item web-design">
+                    <img src="images/11.jpg" alt="item">
+                </div>
+                <!-- item 12 -->
+                <div class="grid-item motion-graphics">
+                    <img src="images/12.jpg" alt="item">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end portfolio -->
+    <script src="js/filter-masonry.min.js"></script>
+</body>
+
+</html>
