@@ -43,15 +43,6 @@ To get started with this project, follow these steps:
 
 ## 4. HTML Structure
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Masonry Filter Layout</title>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
         <div class="have-filter-masonry">
             <div>
                 <div class="filter-buttons" role="group" aria-label="Filter options">
@@ -71,8 +62,6 @@ To get started with this project, follow these steps:
         </div>
 
         <script src="js/filter-masonry.min.js"></script>
-    </body>
-    </html>
 
 ---
 
