@@ -90,4 +90,5 @@ This project is licensed under the MIT License. You can freely use and modify it
 
 #### Author : DoomAccount (Mostafa Sabry)
 #### License: MIT License
+#### Email: mr.mostafa.vb@gmail.com
 #### Repository: [GitHub - Masonry Filter Layout](https://github.com/DoomAccount/masonry-filter-layout)
