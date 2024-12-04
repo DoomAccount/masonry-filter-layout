@@ -13,6 +13,7 @@ This project implements a **masonry grid layout** combined with a **filtering sy
 5. [Customization](#Customization)
 6. [Preview](#Preview)
 7. [License](#license)
+8. [Credits](#credits)
 
 ---
 
@@ -75,10 +76,18 @@ To change the categories, simply update the data-filter attribute in the HTML bu
 
 ## 6. Preview
 
-https://masonry-filter-layout.netlify.app/
+[Masonry Filter Layout](https://masonry-filter-layout.netlify.app/)
 
 ---
 
 ## 7. License
 
 This project is licensed under the MIT License. You can freely use and modify it for personal or commercial purposes, as long as you provide credit to the original author.
+
+---
+
+## 8. Credits
+
+#### Author : DoomAccount (Mostafa Sabry)
+#### License: MIT License
+#### Repository: [GitHub - Masonry Filter Layout](https://github.com/DoomAccount/masonry-filter-layout)
