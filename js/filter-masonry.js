@@ -63,7 +63,7 @@ const filterMasonry = () => {
 
             // Dynamically calculate the number of columns based on screen size
             let columnCount = default_screen; // Default column count
-            if (window.innerWidth < 480) {
+            if (window.innerWidth < 481) {
                 columnCount = mobile_screen; // For mobile screens
                 item_width = 100 / mobile_screen;
             } else if (window.innerWidth < 768) {
